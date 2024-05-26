@@ -35,5 +35,5 @@ pub struct MyObject {
 #[derive(Debug, Deserialize, Serialize, GraphQLMutationRoot)]
 pub enum Operation {
     // MyObject { my_object: MyObject },
-    MyObject,
+    AnotherMyObject,
 }
